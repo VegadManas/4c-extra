@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(124, 118, 118);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: 950px;
+    background-color: #fff;
+    margin: 95px 30px;
+}
+
+.content h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+}
+
+.content h3 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.content p,
+div {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.main {
+    display: flex-box;
+}
+
+.cal {
+    width: 24rem;
+    height: 17rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    position: relative;
+    top: 221px;
+    left: 903px;
+}
+
+.kar {
+    width: 24rem;
+    height: 17rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    position: relative;
+    top: 101px;
+    left: 489px;
+}
+
+.team {
+    width: 24rem;
+    height: 17rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    position: relative;
+    bottom: 485px;
+    left: 490px;
+}
+
+.sup {
+    width: 24rem;
+    height: 17rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    position: relative;
+    bottom: 620px;
+    left: 77px;
+}
+
+.cal div {
+    background-color: #549cee;
+    height: 5px;
+}
+
+.kar div {
+    background-color: #fbad4b;
+    height: 5px;
+}
+
+.team div {
+    background-color: #ff0000;
+    height: 5px;
+}
+
+.sup div {
+    background-color: #46d2d1;
+    height: 5px;
+}
+
+.cal span {
+    position: relative;
+    right: 108px;
+    font-size: 28px;
+    top: 22px;
+}
+
+.cal p {
+    position: relative;
+    right: -28px;
+    font-size: 20px;
+    top: 32px;
+    text-align: justify;
+}
+
+.kar span {
+    position: relative;
+    right: 125px;
+    font-size: 28px;
+    top: 22px;
+}
+
+.kar p {
+    position: relative;
+    right: -28px;
+    font-size: 20px;
+    top: 32px;
+    text-align: justify;
+}
+
+.team span {
+    position: relative;
+    right: 91px;
+    font-size: 28px;
+    top: 22px;
+}
+
+.team p {
+    position: relative;
+    right: -28px;
+    font-size: 20px;
+    top: 32px;
+    text-align: justify;
+}
+
+.sup span {
+    position: relative;
+    right: 105px;
+    font-size: 28px;
+    top: 22px;  
+}
+
+.sup p {
+    position: relative;
+    right: -28px;
+    font-size: 20px;
+    top: 32px;
+    text-align: justify;
+}
+img{
+    position: relative;
+    top: 78px;
+    right: -93px;
+    width: 90px;
+    height: 90px;
+}
+
+@media screen and (max-width: 460px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(116, 201, 216);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+        height: 1300px;
+        background-color: rgb(186, 222, 244);
+        margin: 30px 20px;
+        border: 2px solid black;
+        border-radius: 30px;    }
+
+    .content h2 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        margin-top: 2rem;
+    }
+
+    .content h3 {
+        font-weight: bolder;
+        text-align: center;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .content p,
+    div {
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: 8px;
+        letter-spacing: 1px;
+    }
+
+    .main {
+        display: flex-box;
+    }
+
+    .cal {
+        width: 23rem;
+        height: 15rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px;
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+        margin-top: 10px;
+
+    }
+
+    .kar {
+        width: 23rem;
+        height: 15rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px;
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+        margin-top: 10px;
+    }
+
+    .team {
+        width: 23rem;
+        height: 15rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px;
+        position: relative;
+        left: 1rem;
+        margin-top: 10px;
+        top: 2rem;
+    }
+
+    .sup {
+        width: 23rem;
+        height: 15rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px;
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+        margin-top: 10px;
+    }
+
+    .cal div {
+        background-color: #549cee;
+        height: 5px;
+    }
+
+    .kar div {
+        background-color: #fbad4b;
+        height: 5px;
+    }
+
+    .team div {
+        background-color: #ff0000;
+        height: 5px;
+    }
+
+    .sup div {
+        background-color: #46d2d1;
+        height: 5px;
+    }
+
+    .cal span {
+        position: relative;
+        right: 94px;
+        font-size: 34px;
+        top: 16px;
+    }
+
+    .cal p {
+        position: relative;
+        right: -17px;
+        font-size: 20px;
+        top: 25px;
+        text-align: justify;
+    }
+
+    .kar span {
+        position: relative;
+        right: 117px;
+        font-size: 34px;
+        top: 16px;
+    }
+
+    .kar p {
+        position: relative;
+        right: -17px;
+        font-size: 20px;
+        top: 25px;
+        text-align: justify;
+    }
+
+    .team span {
+        position: relative;
+        right: 71px;
+        font-size: 34px;
+        top: 16px;
+    }
+
+    .team p {
+        position: relative;
+        right: -17px;
+        font-size: 20px;
+        top: 25px;
+        text-align: justify;
+    }
+
+    .sup span {
+        position: relative;
+        right: 89px;
+        font-size: 34px;
+        top: 16px;
+    }
+
+    .sup p {
+        position: relative;
+        right: -17px;
+        font-size: 20px;
+        top: 25px;
+        text-align: justify;
+    }
+
+    img {
+        position: relative;
+        top: 44px;
+        right: -122px;
+        width: 90px;
+        height: 90px;
+    }
+
+
+}
